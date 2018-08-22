@@ -1,0 +1,15 @@
+body{
+    height: 60%;
+    width: 50%;
+    margin:0 auto;
+    background-color:black;
+    color:white;
+    text-align:center;
+}
+body img{
+    margin:5px;
+    width: 20%;
+    height:20%;
+    border: 1px solid white;
+    border-radius:10px;
+}
