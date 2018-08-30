@@ -7,7 +7,10 @@ var card2 = "";
 
 function mostrar(img){
     if(card1 == "" ){
-        //card1=img;
+        card1=img;
+        img.src = imagenes[img.getAttribute('data-value')];
+    }else if (card2 == ""){
+        card2 = img;
         img.src = imagenes[img.getAttribute('data-value')];
     }
 }
